@@ -1,0 +1,32 @@
+{
+  "name": "spydel/model-agent",
+
+  "type": "yii2-extension",
+
+  "description": "It allows convenient to work with different models together",
+  "keywords": ["yii2", "model"],
+  "license": "BSD-3-Clause",
+  "support": {
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "authors": [
+    {
+      "name": "Merkulov Pavel",
+      "email": "info@merkulov-pavel.ru"
+    }
+  ],
+
+  "minimum-stability": "stable",
+
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "yii\\modelAgent\\": ""
+    }
+  }
+}
